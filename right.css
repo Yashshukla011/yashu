@@ -1,0 +1,74 @@
+.conatiner{
+    height: 90vh;
+    width: 210vh;
+    
+
+}
+html {
+    scroll-behavior: smooth;
+  }
+#button{
+    position: absolute;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.conatiner h1{
+    margin-top: 20vh;
+    margin-left: 15vh;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+    
+    font-size: 70px;
+}
+.conatiner .g{
+    color: blueviolet;
+    font-weight: 600;
+}
+
+.heading{
+    margin: 2.50cm;
+    margin-top: -1vh;
+    position: absolute;
+    animation: check 0.63s ease infinite;
+}
+
+
+.gain{
+    margin-top: -40vh;
+    margin-left: 14vh;
+    transition: 0.65s ease;
+    outline: none;
+    cursor: pointer;
+}
+.gain:hover{
+    transform: scale(1.1);
+}
+.img{
+    margin-left: 100vh;
+    margin-top: -115vh;
+}
+.img img{
+    height: 600px;
+    
+}
+
+.skillss{
+    height: 90vh;
+    width: 210vh;
+    
+   margin-left: 1.30cm;
+   position: relative;
+   
+}
+.skill{
+    padding: 35px;
+   
+
+}
+.make{
+    position: absolute;
+    margin-top: -45vh;
+    margin-left: 0vh;
+    opacity: 0;
+}
